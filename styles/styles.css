@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: url('/assets/BG.png') no-repeat center center; 
+    background-size: cover;
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#header-content h1 {
+    font-size: 32px; 
+    margin: 0 0 10px 0; 
+}
+
+#header-content p {
+    font-size: 20px; 
+    margin: 0; 
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    #header-content h1 {
+        font-size: 24px; 
+    }
+
+    #header-content p {
+        font-size: 16px; 
+    }
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#home {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+#home h1 {
+    color: #333;
+}
+
+#home p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#home h2 {
+    color: #444;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#nav {
+    background-color: #333; 
+    padding: 10px 0;
+}
+
+#nav a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+#nav a:hover, #nav a:focus {
+    background-color: #555; 
+    color: #ccc; 
+}
+
+#divider {
+    background-color: #ccc; 
+    height: 1px; 
+    margin: 10px 0;
+}
+
+a {
+    color: #0077cc; 
+    text-decoration: none; 
+}
+
+a:hover, a:focus {
+    text-decoration: underline; 
+}
+
+
+
